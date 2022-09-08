@@ -1,0 +1,150 @@
+.signIn{
+    flex:1;
+    display: flex;
+    height:100vh;
+    justify-content: center;
+    background-color: white;
+    position: relative;
+    padding-top: 100px;
+}
+.sub-signIn{
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    width: 600px;
+    box-shadow: 5px 5px 5px 5px #818181;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+.imgs{
+    padding-top: 10px;
+    display: flex;
+    height: 70px;
+    width:70px;
+}
+.birdy-img{
+    height: 70px;
+    width:70px;
+    position: relative;
+    margin-right :470px;
+}
+.sub-signIn h1{
+    font-size: 30px;
+    position: absolute;
+    color: black;
+    text-align: center;
+    padding-left: 0px;
+    padding-top: 80px;
+}
+.form-signIn{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 160px;
+}
+
+.field{
+    position: relative;
+    margin-left : 20px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    margin-right : 20px; 
+}
+.ids{
+    padding-left: 20px;
+}
+.field > label{
+    font-family: sans-serif;
+    font-size: 16px;
+    padding-top: 10px;
+}
+.field > input{
+    position: absolute;
+    left : 40%;
+    width : 50%;
+    border-radius: 5px;
+    height: 40px;
+    padding-left: 10px;
+}
+label[for="NomF"]{
+    margin-left: 7%;
+}
+input[id="Prenom"],input[id="NomF"]{
+    margin-left: 5%;
+}
+.ids>label{
+    font-family: sans-serif;
+    font-size: 16px;
+    padding-top: 10px;
+}
+.ids{
+    display: inline-flex;
+    justify-content: space-around;
+    font-size: 16px;
+}
+.ids>input{
+    width :80%;
+    border-radius: 5px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+nav[id='SignInNav'] > *{
+    display: block;
+    height : 45px;
+    width : 200px;
+    text-decoration: none;
+    font-size : 18px;
+    margin-top: 10px;
+    margin-left : 10px;
+    margin-right: 20px;
+    cursor:pointer;
+}
+span[id='SignInSpan']{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:40px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left : 170px;
+    margin-right: 20px;
+    color: white;
+    background : #1da1f2;
+    border-radius: 20px;
+}
+span[id='SignInSpan']:hover{
+    background: #192734;
+    border-radius: 20px;
+    height:40px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left : 170px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.succès{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.boutton_connexi{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    margin-top: 10px;
+    margin-left : 170px;
+    margin-right: 20px;
+    color: #1da1f2;;
+    background : white; 
+    border:none;
+    text-decoration: underline;
+}
+.boutton_connexi:hover{
+    background: #192734;
+   
+    
+    cursor: pointer;
+}

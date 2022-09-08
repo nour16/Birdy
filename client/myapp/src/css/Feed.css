@@ -1,0 +1,75 @@
+.Feed{
+    margin: 10px;
+    min-width: fit-content;
+    
+}
+.Pannel{
+    flex:0.9;
+    display: flex;
+    color: #fff;
+    margin: 10px;
+   
+}  
+.widg_rech{
+    flex:0.8;
+    display:flex;
+}
+.Recherche{
+    flex:0.8;
+    align-items: center;
+    background-color: lightgray;
+    padding:10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+
+   
+}
+.Recherche>input{
+    border: none;
+    background-color: lightgray;
+    outline: none;
+    margin-left: 10px;
+}
+.Recherche>svg{
+    color:black;
+}
+.buttonR{
+    flex:0.2;
+    background-color:   #1da1f2;
+    margin-left: 10px ;
+    margin-right: 10px ;
+    margin-bottom: 10px ;
+    border:none !important;
+    color: white !important; 
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    height: 40px !important;
+    width: 90px !important;
+    margin-top: 20px; ;
+   
+}
+
+.buttonR:hover{
+    cursor: pointer;
+   
+}
+.Friends_messages{
+    color: white;
+    font-size: 40px;
+    background-color: #171717;
+    border:none;
+    margin-right:  0;
+    flex:0.1;
+    margin-top: 20px;
+}
+
+.Friends_messages:hover{
+    color: #1da1f2;
+    cursor:pointer;
+}
+.home_widg{
+    display:flex;
+    flex:1;
+}

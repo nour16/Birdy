@@ -1,0 +1,110 @@
+.profile{
+    display :flex;
+    flex:0.8;
+    margin: 0px 0px 0px 0px;
+    background: #171717;
+}
+
+.profileRight{
+   
+    flex:0.7;
+    border-right: none;
+}
+.rightbarprofile{
+    background-color:#15202b; ;
+    flex: 0.3;
+} 
+
+.profilRightBottom{
+    display: flex;
+   
+   
+}
+
+.profilRightTop{
+    display: flex;
+    flex-direction: column;
+}
+.profilRightBottom>.Feed{
+    width: 100%;
+   
+}
+.profilCov{
+    height:320px;
+    position : relative;
+}
+
+.profilCoverImg{
+    width: 100%;
+    height :300px;
+    object-fit: cover;
+}
+.profilUserImg{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 300px;
+    margin:auto;
+    top:250px;
+    border: 3px solid white;
+}
+.add_Friend{
+    width: 20%;
+    border-radius: 20px;
+    font-size: 16px;
+   
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: -150px;
+    margin-bottom: 75px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    background-color:   #1da1f2;
+    border:none !important;
+    color: white !important; 
+   
+
+}
+.add_Friend:hover{   
+    cursor: pointer;
+
+}
+
+.profileInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 300px;
+    padding-top: 80px;
+}
+.profileInfoName{
+    font-size: 24px;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+}
+.profileInfoName>h4{
+    margin-bottom: 0;
+}
+.abonnements{
+    padding-top: 0px;
+    font-weight: 300;
+}
+.profilRightBottom{
+    display: flex;
+}
+.FriendsList{
+    
+    color:white;
+}
+.profileInfoName{
+    color:white;
+}
+.abonnements{
+    color:white;
+}

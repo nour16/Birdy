@@ -1,0 +1,25 @@
+.Logout{
+   
+    margin-top: 20%;
+   
+}
+.logout_button{
+
+    background-color:   #1da1f2;
+    font-size: 20px;
+    border:none !important;
+    color: white !important; 
+    font-weight: 500 !important;
+    text-transform: inherit !important;
+    border-radius: 20px !important;
+    align-items : center;
+    margin-top:20px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.logout_button:hover{
+    cursor: pointer;
+    background-color:#2e6ba3;
+}

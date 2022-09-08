@@ -1,0 +1,9 @@
+.PageMur{
+    
+    background: #171717;
+    min-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+   flex:1;
+  }
+

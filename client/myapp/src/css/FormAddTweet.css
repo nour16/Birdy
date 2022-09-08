@@ -1,0 +1,47 @@
+
+.FormAddTweet> form{
+    display:flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    border-radius: 20px;
+    margin-top:40px;
+    background: #171717;
+}
+.tweetBox_input{
+    padding:20px;
+    display:flex;
+   
+  
+}
+.tweetBox_input > input{
+    flex:1;
+    margin-left: 10 px;
+    font-size: 20px;
+    border:none;
+    outline: none;
+    background: #171717;
+    color:white;
+}
+.tweetBox_Imageinput{
+    border:none;
+    margin: 20px;   
+    outline: none;
+    background: #171717;
+    color:white;
+}
+.tweet_button{
+    background-color:   #1da1f2;
+    margin: 10px ;
+    border:none !important;
+    color: white !important; 
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    height: 40px !important;
+    width: 90px !important;
+    margin-left: auto;
+
+}
+.tweet_button:hover{
+    cursor: pointer;
+}

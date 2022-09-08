@@ -1,0 +1,55 @@
+.FriendContainer{
+    display: flex;
+    flex:1;
+    flex-direction: row;
+    align-items: center;
+}
+
+.avatar_friend{
+    flex:0.2;
+    margin-bottom: 15px;
+    margin-right: 15px;
+   
+}
+
+.FriendUsername{
+    flex:0.6;
+    padding-right: 0;  
+    padding-bottom: 15px;
+    padding-left: 0;
+    
+}
+
+.delete_friend{
+    flex:0.2;
+    padding-left: 0;  
+    margin-bottom: 10px;
+    color: white;
+    font-size: 26px;
+    background-color:#15202b; ;
+    border:none;
+}
+.delete_friend:hover{
+    color: #1da1f2;
+    cursor: pointer;
+}
+.getFriendProfile{
+    background-color:#15202b; ;
+    font-size:1.3em;
+    font-weight: 500;
+    align-items : center;
+   
+   
+    text-decoration: none;
+    color: white;
+    cursor: pointer;   
+    border:none;
+    color:white;
+    
+    
+}
+.getFriendProfile:hover{
+    color: #1da1f2;
+    border-radius: 1.5em;
+    background: #192734;
+}
