@@ -1,2 +1,2 @@
 # Birdy
-Creation of a twitter clone with the MERN (MongoDB, Express, React and Node) stack.
+The objective of this university project is the creation of a twitter clone using MongoDB, Express, React and Node. 
